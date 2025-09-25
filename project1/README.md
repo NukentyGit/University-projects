@@ -1,4 +1,4 @@
-# Project 1 – Data Analysis Example
+# Project 1 – Exploratory Data Analysis (EDA)
 
 This project demonstrates a simple data analysis workflow:
 - Load and clean dataset
