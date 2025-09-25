@@ -40,6 +40,12 @@ The data is stored in the file `olive_oil.xlsx` and includes:
 
 ---
 
+## ⏱️ Execution Time
+
+- Full notebook execution: ~30 seconds on an average-performing laptop
+
+---
+
 ## 🚀 Result  
 
 - The EDA highlighted differences in fatty acid concentrations among the Italian regions, showing clear regional patterns.
