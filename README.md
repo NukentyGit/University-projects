@@ -1,5 +1,5 @@
 # 🎓 University-projects
-A curated collection of my academic projects showcasing practical applications of Data Science, Mathematics, AI and Machine Learning through data analysis, algorithms and visualization.
+A curated collection of few academic projects showcasing practical applications of Data Science, Mathematics, AI and Machine Learning through data analysis, algorithms and visualization.
 
 ## 📊 What’s inside
 - **Data Science** → analysis of real-world datasets using Python (pandas, NumPy, matplotlib, scikit-learn).  
