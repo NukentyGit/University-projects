@@ -10,7 +10,7 @@ A curated collection of some academic projects showcasing practical applications
 ## 📁 Projects
 
 Here are some of my academic projects included in this repository:
-- **[Project 1 – Data Analysis Example](project1/README.md)** → A simple workflow demonstrating data loading, cleaning, analysis, and visualization using Python.
+- **[Project 1 – Exploratory Data Analysis](project1/README.md)** → A simple workflow demonstrating data loading, cleaning, analysis and visualization using Python.
 
 - ---
 👋 *This repository is part of my academic portfolio. Feel free to explore the code and results!*
