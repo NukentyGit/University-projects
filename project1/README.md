@@ -42,7 +42,7 @@ The data is stored in the file `olive_oil.xlsx` and includes:
 
 ## ⏱️ Execution Time
 
-- Full notebook execution: ~30 seconds on an average-performing laptop
+- Full notebook execution: ~30 seconds (on an average-performing laptop)
 
 ---
 
