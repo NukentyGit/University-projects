@@ -1,4 +1,4 @@
-# Project 2 – Principal Component Analysis (PCA) Exploration
+> # Project 2 – Principal Component Analysis (PCA) Exploration
 
 This project demonstrates a workflow for **Principal Component Analysis (PCA)** using Python.  
 It covers the full process, including **data preprocessing, dimensionality reduction, visualization, and interpretation**, providing a hands-on example of how to extract insights from multivariate data efficiently.
@@ -45,7 +45,7 @@ In this project, I focus on **PCA analysis** to reduce dimensionality and explor
 
 ## ⏱️ Execution Time
 
-- Full notebook execution (81 code cells): <10 seconds (on an medium performant laptop)
+- Full notebook execution (77 code cells): <10 seconds (on an medium performant laptop)
 
 ---
 
@@ -57,3 +57,12 @@ In this project, I focus on **PCA analysis** to reduce dimensionality and explor
 - T² vs Q residual plots revealed a few outliers, while most samples were well represented.
 
 PCA effectively reduced dimensionality, highlighted group differences and identified anomalies.
+
+---
+
+## ⚠️ **Warning**
+
+Interactive plots were originally created with **Plotly**, but since GitHub does not support interactive rendering, they have also been exported as static PNG images.  
+This ensures that all visualizations remain visible directly on GitHub, while the interactivity can still be experienced by running the notebook locally.
+
+---
