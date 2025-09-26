@@ -62,7 +62,7 @@ PCA effectively reduced dimensionality, highlighted group differences and identi
 
 ## ⚠️ **Warning**
 
-Interactive plots were originally created with **Plotly**, but since GitHub does not support interactive rendering, they have also been exported as static PNG images.  
+Interactive plots were originally created with **Plotly**, but since GitHub does not support interactive rendering, they have also been exported as static PNG images.
 This ensures that all visualizations remain visible directly on GitHub, while the interactivity can still be experienced by running the notebook locally.
 
 When running the notebook locally though, make sure to **comment out the cells that load static PNG images** before execution to avoid "file not found" errors.
