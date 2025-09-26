@@ -51,8 +51,9 @@ In this project, I focus on **PCA analysis** to reduce dimensionality and explor
 
 ## 🚀 Results
 
-- PCA revealed the main sources of variation in fatty acid concentrations, separating regions along the first principal components.  
-- **Scores plots** highlighted clustering of samples by geographic region.  
-- **Loadings plots** showed which fatty acids contributed most to each principal component.  
-- **T² vs Q residual plots** identified a few outlier samples, which could indicate unusual compositions or measurement errors.  
-- Interpretation of scores and loadings together provided a clear understanding of relationships between variables and regional differences.
+- The first five PCs explained ~80% of the variance, capturing the main data structure.
+- Scores plots (PC1 vs PC2) clearly separated Barbera, Grignolino and Barolo wines.
+- Loadings plots showed flavonoids (PC1) and color intensity (PC2) as key contributors.
+- T² vs Q residual plots revealed a few outliers, while most samples were well represented.
+
+PCA effectively reduced dimensionality, highlighted group differences and identified anomalies.
