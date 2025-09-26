@@ -52,4 +52,4 @@ The data is stored in the file `olive_oil.xlsx` and includes:
 - Visualizations (boxplots, histograms, pairplots) revealed outliers and anomalies in some samples, helping identify potential errors or unusual values.
 - Correlation analysis suggested relationships between certain fatty acids, which could be useful for classification or clustering.
 
-Overall, this workflow demonstrates how systematic exploration of a dataset provides insights into trends, variability, and potential predictive features.
+Overall, this workflow demonstrates how systematic exploration of a dataset provides insights into trends, variability and potential predictive features.
