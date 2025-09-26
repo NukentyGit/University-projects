@@ -1,4 +1,4 @@
-# Project 1 – Exploratory Data Analysis (EDA)
+> # Project 1 – Exploratory Data Analysis (EDA)
 
 A simple workflow demonstrates essential skills in **Exploratory Data Analysis (EDA)** using Python. It covers the full process, including **data loading, preprocessing, visualization and analysis**, providing a hands-on example of how to explore and understand a dataset efficiently.
 
