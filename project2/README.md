@@ -51,7 +51,7 @@ In this project, I focus on **PCA analysis** to reduce dimensionality and explor
 
 ## 🚀 Results
 
-- The first five PCs explained 85% of the variance, capturing the main data structure.
+- The first five PCs explained 80% of the variance, capturing the main data structure.
 - Scores plots (PC1 vs PC2) clearly separated Barbera, Grignolino and Barolo wines.
 - Loadings plots showed flavonoids (PC1) and color intensity (PC2) as key contributors.
 - T² vs Q residual plots revealed a few outliers, while most samples were well represented.
