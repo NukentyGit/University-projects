@@ -45,7 +45,7 @@ In this project, I focus on **PCA analysis** to reduce dimensionality and explor
 
 ## ⏱️ Execution Time
 
-- Full notebook execution (77 code cells): <10 seconds (on an medium performant laptop)
+- Full notebook execution (34 code cells): <10 seconds (on an medium performant laptop)
 
 ---
 
