@@ -1,4 +1,4 @@
-# Project 3 – Clustering Analysis
+# Project 3 – Clustering analysis
 
 This project applies **Hierarchical Clustering, K-Means and Density-Based methods** to the well-known *Italian Extra Virgin Olive Oil* dataset.  
 The goal is to test different clustering strategies, visualize results and compare performances, showcasing skills in **unsupervised learning, dimensionality reduction and data visualization**.  
