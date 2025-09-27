@@ -47,8 +47,6 @@ The dataset (olive_oil.xlsx) contains chemical measurements of fatty acid concen
 
 ## 🚀 Results  
 
-## 🚀 Results  
-
 - **Hierarchical clustering**  
   - PCA showed strong overlap between categories.  
   - Best silhouette (**0.543**) with *complete linkage* (threshold = 2000).      
