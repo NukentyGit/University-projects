@@ -12,7 +12,7 @@ A curated collection of some academic projects showcasing practical applications
 Projects included in this repository:
 - **[Project 1 – Exploratory Data Analysis](project1/README.md)** → A simple workflow demonstrating data loading, cleaning, analysis and visualization using Python.
 - **[Project 2 – Principal Component Analysis](project2/README.md)** → A simple workflow demonstrating dimensionality reduction using PCA, including data preprocessing, variance analysis and visualization of principal components.
-- **[Project 3 – Clustering analysis](project3/README.md)** → A simple workflow demonstrating different clustering algorithms, with a special focus on hierarchical method in Python.
+- **[Project 3 – Clustering analysis](project3/README.md)** → A simple workflow demonstrating different clustering algorithms, with a special focus on hierarchical methods in Python.
 
 - ---
 👋 *This repository is part of my academic portfolio. Feel free to explore the code and results!*
