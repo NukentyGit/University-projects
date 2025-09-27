@@ -1,64 +1,71 @@
-> # Project 2 – Principal Component Analysis (PCA) Exploration
+# Project 2 – Clustering Analysis
 
-This project explores different clustering techniques applied to the olive oil dataset, with a focus on hierarchical clustering and a comparison with other methods (k-means and density-based clustering).
-
----
-
-## 📝 Description
-
-The Olive Oil dataset contains samples of olive oils characterised by multiple chemical and physical variables.
-The aim of the analysis is to identify natural clusters among both the samples and the variables, comparing the results obtained with different clustering approaches.
-
-- 8 classes representing the region of origin
-- 7 variables: fatty acid cencentration.
+This project applies **Hierarchical Clustering, K-Means and Density-Based methods** to the well-known *Italian Extra Virgin Olive Oil* dataset.  
+The goal is to test different clustering strategies, visualize results and compare performances, showcasing skills in **unsupervised learning, dimensionality reduction and data visualization**.  
 
 ---
 
-## 🎯 Objectives
+## 📝 Description  
 
-- Select and apply appropriate **preprocessing** for PCA (scaling, transformations)
-- Perform PCA and select the most informative principal components  
-- Visualize **scores** and **loadings** to interpret patterns and relationships  
-- Analyze residuals using **T² vs Q plots** to identify anomalous or extreme samples  
-- Compare scores and loadings to derive meaningful insights about the data  
+The dataset (olive_oil.xlsx) contains chemical measurements of fatty acid concentrations in olive oil samples collected from various Italian regions.  
+
+- **Category index** (region of origin): indicated with numers ranging from 1 to 9
+
+- **7 fatty acids concentrations** measured via chromatography (columns).  
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Objectives  
 
-- Python 3.13.0  
-- Pandas  
-- NumPy  
-- Matplotlib  
+- Perform **Hierarchical Clustering** with different distances and linkage criteria.  
+- Select the best-performing combination and report:  
+  1. **Samples dendrogram**  
+  2. **Scores plot (PC1 vs PC2)** colored by cluster assignments (threshold value included in the title)  
+  3. **Clustering of variables** (transpose dataset, use correlation as distance) with "heatmap" visualization of standardized data ordered by dendrograms.  
+- Compare results with **K-Means** and a **density-based method (DBSCAN)**.  
+- Interpret and discuss differences between clustering approaches.
+
+---
+
+## 🛠️ Tech Stack  
+
+- Python v 3.13.0
+- Pandas
+- NumPy
+- Matplotlib
 - Seaborn
-- Plotly
 - Scikit-learn
 - SciPy
 
 ---
 
-## ⏱️ Execution Time
+## ⏱️ Execution Time  
 
-- Full notebook execution (34 code cells): <10 seconds (on an medium performant laptop)
-
----
-
-## 🚀 Results
-
-- The first five PCs explained 80% of the variance, capturing the main data structure.
-- Scores plots (PC1 vs PC2) clearly separated Barbera, Grignolino and Barolo wines.
-- Loadings plots showed flavonoids (PC1) and color intensity (PC2) as key contributors.
-- T² vs Q residual plots revealed a few outliers, while most samples were well represented.
-
-PCA effectively reduced dimensionality, highlighted group differences and identified anomalies.
+- Full notebook execution (31 code cells): <30 seconds *(measured on average laptop performance)*  
 
 ---
 
-## ⚠️ **Warning**
+## 🚀 Results  
 
-Interactive plots were originally created with **Plotly**, but since GitHub does not support interactive rendering, they have also been exported as static PNG images.
-This ensures that all visualizations remain visible directly on GitHub, while the interactivity can still be experienced by running the notebook locally.
+## 🚀 Results  
 
-When running the notebook locally though, make sure to **comment out the cells that load static PNG images** before execution to avoid "file not found" errors.
+- **Hierarchical clustering**  
+  - PCA showed strong overlap between categories.  
+  - Best silhouette (**0.543**) with *complete linkage* (threshold = 2000).      
+  - Variable clustering revealed strong correlations (*palmitic–palmitoleic*, *eicosanoic–linolenic*) and *linoleic acid* as a “bridge variable”.  
+
+- **K-Means**  
+  - Elbow suggested **k = 3**, with silhouette ≈ **0.48**.  
+  - Clusters compact but less aligned with true categories.  
+
+- **DBSCAN**  
+  - Good for anomalies and density-based groups.  
+  - Results highly sensitive to ε.  
+
+**In Summary**
+
+Hierarchical clustering gave the most consistent structure, Ward’s method the most balanced results, while K-Means and DBSCAN offered complementary but less robust perspectives.  
 
 ---
+
+📌 This project demonstrates advanced **unsupervised learning techniques** and practical skills in **clustering evaluation and visualization**.  
