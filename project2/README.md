@@ -1,7 +1,7 @@
 > # Project 2 – Principal Component Analysis (PCA) Exploration
 
 This project demonstrates a workflow for **Principal Component Analysis (PCA)** using Python.  
-It covers the full process, including **data preprocessing, dimensionality reduction, visualization, and interpretation**, providing a hands-on example of how to extract insights from multivariate data efficiently.
+It covers the full process, including **data preprocessing, dimensionality reduction, visualization and interpretation**, providing a hands-on example of how to extract insights from multivariate data efficiently.
 
 ---
 
