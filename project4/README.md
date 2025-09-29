@@ -30,7 +30,7 @@ Each dataset contains 3D samples representing different classes. The workflow in
 
 ## 🛠️ **Tech Stack**
 
-- MATLAB (tested on R2024b and newer)  
+MATLAB (tested on R2024b and newer)  
 
 ---
 
