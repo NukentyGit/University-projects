@@ -1,11 +1,11 @@
-> 🎓 # Project 4 – Linear Discriminant Analysis (LDA): Fisher's discriminant
+> # Project 4 – Linear Discriminant Analysis (LDA): Fisher's discriminant
 
 A simple workflow demonstrates essential skills in **Linear Discriminant Analysis (LDA)** using MATLAB.  
 It covers the full process, including data loading, mean calculation, scatter matrices, eigen decomposition, and projection, providing a hands-on example of how to separate and visualize multiple classes in lower dimensions.
 
 ---
 
-📝 **Description**
+## 📝 **Description**
 
 This project analyzes three synthetic datasets ("class1.csv", "class2.csv", "class3.csv").  
 Each dataset contains 3D samples representing different classes. The workflow includes:
@@ -18,7 +18,7 @@ Each dataset contains 3D samples representing different classes. The workflow in
 
 ---
 
-🎯 **Objectives**
+## 🎯 **Objectives**
 
 - Load and manage datasets in MATLAB  
 - Implement within-class ("Sw") and between-class ("Sb") scatter matrices  
@@ -28,13 +28,13 @@ Each dataset contains 3D samples representing different classes. The workflow in
 
 ---
 
-🛠️ **Tech Stack**
+## 🛠️ **Tech Stack**
 
 - MATLAB (tested on R2024b and newer)  
 
 ---
 
-⏱️ **Execution Time**
+## ⏱️ **Execution Time**
 
 Full script execution: **<5 seconds** (on an average-performing laptop).
 
