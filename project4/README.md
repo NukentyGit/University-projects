@@ -1,4 +1,4 @@
-> # Project 1 – Linear Discriminant Analysis (LDA)
+> # Project 4 – Linear Discriminant Analysis (LDA)
 
 A simple workflow demonstrates essential skills in **Linear Discriminant Analysis (LDA)** using MATLAB.  
 It covers the full process, including data loading, mean calculation, scatter matrices, eigen decomposition, and projection, providing a hands-on example of how to separate and visualize multiple classes in lower dimensions.
