@@ -40,7 +40,7 @@ Full script execution: **<5 seconds** (on an average-performing laptop).
 
 ---
 
-🚀 **Result**
+## 🚀 **Result**
 
 - **3D visualization** of the three classes with their centroids.  
 - **2D projection** along the two most discriminant directions, showing clear class separation.  
