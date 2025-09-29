@@ -36,7 +36,7 @@ Each dataset contains 3D samples representing different classes. The workflow in
 
 ⏱️ **Execution Time**
 
-Full script execution: **~2–3 seconds** (on an average-performing laptop).  
+Full script execution: **<5 seconds** (on an average-performing laptop).
 
 ---
 
