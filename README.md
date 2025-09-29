@@ -2,7 +2,7 @@
 A curated collection of some academic projects showcasing practical applications of Data Science, Mathematics, AI and Machine Learning through data analysis, algorithms and visualization.
 
 ## 📊 What’s inside
-- **Data Science** → analysis of real-world datasets using Python (pandas, NumPy, matplotlib, scikit-learn).  
+- **Data Science** → analysis of real-world datasets using Python (pandas, NumPy, matplotlib, scikit-learn) and MATLAB.
 - **Machine Learning** → regression, classification and clustering.  
 - **Mathematics** → mathematical formulas and proofs that explain and validate Data Science workflows, valorising my strong background in Mathematics with a specialization in Data Science.  
 - **Visualization** → plots, charts and dashboards.
