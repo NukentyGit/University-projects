@@ -50,6 +50,6 @@ The combination of hyperparameter tuning, dropout, batch normalization and caref
 
 ## ⚠️ Warning
 
-To obtain information about the model architecture, run the following command in the terminal:
-"tensorboard --logdir=./logs"
+To obtain information about the model architecture, run the following command in the terminal:  
+"tensorboard --logdir=./logs"  
 After a few seconds, the link "http://localhost:6006/" may appear. Clicking on it will redirect you to the TensorBoard page.
