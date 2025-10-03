@@ -34,10 +34,6 @@ This project focuses on classifying grayscale 28×28 images from the **Fashion-M
 - Pandas  
 - Matplotlib
 
-You can obtain information about the model architecture by running the following command in the terminal:
-"tensorboard --logdir=./logs"
-After a few seconds, the link "http://localhost:6006/" may appear. Clicking on it will redirect you to the TensorBoard page.
-
 ---
 
 ## ⏱️ Execution Time
@@ -49,3 +45,11 @@ Full notebook execution (including hyperparameter tuning and training) takes **~
 ## 🚀 Result
 
 The combination of hyperparameter tuning, dropout, batch normalization and careful evaluation ensures a robust and reproducible deep learning pipeline.
+
+---
+
+## ⚠️ Warning
+
+To obtain information about the model architecture, run the following command in the terminal:
+"tensorboard --logdir=./logs"
+After a few seconds, the link "http://localhost:6006/" may appear. Clicking on it will redirect you to the TensorBoard page.
