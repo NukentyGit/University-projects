@@ -1,6 +1,6 @@
 > # Project 5 – Support Vector Machines (SVM) vs Convolutional Neural Network (CNN)
 
-A complete workflow demonstrates essential skills in building, tuning, training, evaluating and confronting two classification models: Support Vector Machines (SVM) and Convolutional Neural Network (CNN) using Python (Scikit-learn and TensorFlow/Keras). It covers the full process from data loading and preprocessing to model optimization, evaluation and visualization, providing a hands-on example of how to efficiently develop and assess Machine Learning and Deep Learning models.
+A complete workflow demonstrates essential skills in building, tuning, training, evaluating and confronting two classification models: Support Vector Machine (SVM) and Convolutional Neural Network (CNN) using Python (Scikit-learn and TensorFlow/Keras). It covers the full process from data loading and preprocessing to model optimization, evaluation and visualization, providing a hands-on example of how to efficiently develop and assess Machine Learning and Deep Learning models.
 
 ---
 
