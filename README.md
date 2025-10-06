@@ -13,7 +13,7 @@ Projects included in this repository:
 - **[Project 1 – Exploratory Data Analysis](project1/README.md)** → A simple workflow demonstrating data loading, cleaning, analysis and visualization using Python.
 - **[Project 2 – Principal Component Analysis](project2/README.md)** → A simple workflow demonstrating dimensionality reduction using PCA, including data preprocessing, variance analysis and visualization of principal components.
 - **[Project 3 – Clustering analysis](project3/README.md)** → A simple workflow demonstrating different clustering algorithms, with a special focus on hierarchical methods in Python.
-- **[Project 4 – Linear Discriminant Analysis (LDA): Fisher's discriminant](project4/README.md)** → A simple MATLAB workflow demonstrates the core steps of Linear Discriminant Analysis (LDA) to load data, compute statistics, build scatter matrices, perform eigen decomposition and project classes into lower dimensions for visualization.
+- **[Project 4 – Linear Discriminant Analysis (LDA): Fisher's discriminant](project4/README.md)** → A simple MATLAB workflow demonstrating the core steps of Linear Discriminant Analysis (LDA) to load data, compute statistics, build scatter matrices, perform eigen decomposition and project classes into lower dimensions for visualization.
 - **[Project 5 – Machine Learning and Deep Learning](project5/README.md)** → A simple workflow demostrating the key steps involved in developing and comparing two classification models: a Support Vector Machine (SVM) and a Convolutional Neural Network (CNN), using Python with Scikit-learn and TensorFlow/Keras.
 
 - ---
