@@ -1,6 +1,6 @@
-> # Project 5 – Convolutional Neural Network
+> # Project 5 – Support Vector Machines (SVM) vs Convolutional Neural Network (CNN)
 
-A complete workflow demonstrates essential skills in building, tuning, training and evaluating a Convolutional Neural Network (CNN) using Python and TensorFlow/Keras. It covers the full process from data loading and preprocessing to model optimization, evaluation and visualization, providing a hands-on example of how to efficiently develop and assess deep learning models.
+A complete workflow demonstrates essential skills in building, tuning, training, evaluating and confronting two models classification: Support Vector Machines (SVM) and Convolutional Neural Network (CNN) using Python (Scikit-learn and TensorFlow/Keras). It covers the full process from data loading and preprocessing to model optimization, evaluation and visualization, providing a hands-on example of how to efficiently develop and assess Machine Learning and Deep Learning models.
 
 ---
 
@@ -16,11 +16,11 @@ This project focuses on classifying grayscale 28×28 images from the **Fashion-M
 
 ## 🎯 Objectives
 
-- Load and preprocess image datasets for CNN training  
-- Build a **flexible and tunable CNN** with convolutional blocks, dropout, batch normalization and dense layers  
-- Tune hyperparameters (filters, dropout rates, dense units, learning rate) using **Keras Tuner**  
-- Apply **EarlyStopping** and **TensorBoard** for efficient training and monitoring  
-- Evaluate model performance with accuracy, learning curves, confusion matrix and classification metrics (Precision, Recall, F1-score)  
+- Load and preprocess image datasets for both SVM and CNN training
+- Build an **interpretable SVM model** and a **flexible and tunable CNN** with convolutional blocks, dropout, batch normalization and dense layers  
+- Study the behaviour of the SVM model across crucial hyperparameter (C, kernel, ganmma). For CNN, tune hyperparameters (filters, dropout rates, dense units, learning rate) using **Keras Tuner**  
+- Apply different values of the parameters in order to mitigate the overfiting in SVM. For the CNN, apply **EarlyStopping** and **TensorBoard** for efficient training and monitoring  
+- Evaluate both the models performance with Accuracy, learning curves, Confusion Matrix and classification metrics (Precision, Recall, F1-score)  
 - Save the trained CNN for future inference or further experiments  
 
 ---
@@ -33,18 +33,25 @@ This project focuses on classifying grayscale 28×28 images from the **Fashion-M
 - NumPy  
 - Pandas  
 - Matplotlib
+- Scikit-learn
 
 ---
 
 ## ⏱️ Execution Time
 
-Full notebook execution (including hyperparameter tuning and training) takes **~90 minutes** (on an average-performing laptop).
+- 35 code cells for SVM and 19 code cells or CNN
+- Full notebook execution (including hyperparameter tuning and training) takes **~90 minutes** (on an average-performing laptop).
 
 ---
 
 ## 🚀 Result
 
-The combination of hyperparameter tuning, dropout, batch normalization and careful evaluation ensures a robust and reproducible deep learning pipeline.
+- The **SVM** used feature scaling and optional PCA to enhance stability and reduce overfitting, while the **CNN** required data reshaping and scaling for its convolutional layers.
+- **SVM:** ~97% train / 91% test accuracy, strong but slightly closer to overfitting.  
+- **CNN:** ~92% consistent across train/test/validation, with better generalization and lower loss (~0.2).
+- The SVM demanded heavier parameter tuning, whereas the CNN benefited from GPU acceleration and regularization (dropout, batch norm).  
+
+Both models performed excellently, but **CNN showed slightly better robustness and adaptability**, while **SVM remains simpler and more interpretable** for structured data.
 
 ---
 
