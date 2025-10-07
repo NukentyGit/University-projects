@@ -57,6 +57,4 @@ Both models performed excellently, but **CNN showed slightly better robustness a
 
 ## ⚠️ Warning (CNN)
 
-- The tuning process was performed using **10 random Keras combinations**. Because of this random selection, re-running the code may produce a **different optimized model** each time. For those who wish to **replicate the exact same results** though, the project folder includes the **saved tuning procedure** and the **final optimized model**. To reuse my model, simply place the notebook and these folders within the **same project directory**. This ensures that the code recognizes the existing files and **skips the tuning step**, saving considerable computation time. If the code is executed without these files though, it will **rerun the entire tuning process** and may yield a **different model configuration**.
-
-- Furthermore, to obtain information about the CNN's architecture during tuning and/or training, run the following command in the terminal: "tensorboard --logdir=./logs". After a few seconds, the link "http://localhost:6006/" may appear. Clicking on it will redirect you to the TensorBoard page.
+To obtain information about the CNN's architecture during tuning and/or training, run the following command in the terminal: "tensorboard --logdir=./logs". After a few seconds, the link "http://localhost:6006/" may appear. Clicking on it will redirect you to the TensorBoard page.
