@@ -36,7 +36,7 @@ MATLAB (tested on R2024b and newer)
 
 ## ⏱️ **Execution Time**
 
-Full script execution: **<5 seconds** (on an average-performing laptop).
+Full script (59 lines) execution: **<5 seconds** (on an average-performing laptop).
 
 ---
 
