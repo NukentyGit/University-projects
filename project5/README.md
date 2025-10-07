@@ -40,7 +40,7 @@ This project focuses on classifying grayscale 28×28 images from the **Fashion-M
 ## ⏱️ Execution Time
 
 - 35 code cells for SVM and 19 code cells or CNN
-- Full notebook execution (including hyperparameter tuning and training) takes **~90 minutes** (on an average-performing laptop).
+- Full notebook execution (including hyperparameter tuning and training) takes at most **~90 minutes** (on an average-performing laptop).
 
 ---
 
